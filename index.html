@@ -63,7 +63,7 @@ nav{padding:10px 8px;flex:1;overflow-y:auto}
 .nav-group-body{overflow:hidden;transition:max-height .2s ease,opacity .2s;max-height:300px;opacity:1}
 .nav-group-body.collapsed{max-height:0;opacity:0;pointer-events:none}
 .alert-badge{background:var(--danger);color:#fff;font-size:9.5px;font-weight:700;border-radius:20px;padding:1px 6px;margin-left:auto}
-.sidebar-footer{margin:0 8px 12px;padding:10px 12px;background:var(--accent2-bg);border:1px solid #c6ede0;border-radius:var(--r);font-size:10.5px;color:#0d7a57;line-height:1.6}
+.sidebar-footer{display:none}
 
 /* ── MAIN ────────────────────────────────────────────── */
 .main{flex:1;overflow-y:auto;display:flex;flex-direction:column}
@@ -253,7 +253,7 @@ select.search-box{cursor:pointer}
       </div>
     </div>
   </nav>
-  <div class="sidebar-footer" id="sidebar-footer">Dados salvos no navegador<br>Histórico: Abr–Jun 2026 ✓<br>Lojas: 16 · Setores: 12</div>
+  <div class="sidebar-footer" id="sidebar-footer" style="display:none"></div>
 </aside>
 
 <div class="main">
